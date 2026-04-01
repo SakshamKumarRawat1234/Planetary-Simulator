@@ -7,27 +7,42 @@ Objective
 
 The goal of this project is to understand how gravitational forces influence planetary motion and to visualize orbital movement through a computer simulation.
 
-Features
-Simulates motion of planets around the Sun
-Uses real physical constants such as gravitational constant and planetary masses
-Displays planetary orbits visually
-Shows the path of each planet as it moves
-Technologies Used
-Python
-Pygame
-Mathematical calculations using the math module
-How the Simulation Works
+Features:
+
+-Simulates motion of planets around the Sun
+
+-Uses real physical constants such as gravitational constant and planetary masses
+
+-Displays planetary orbits visually
+
+-Shows the path of each planet as it moves
+
+
+Technologies Used:
+
+-Python
+
+-Pygame
+
+-Mathematical calculations using the math module
+
+
+How the Simulation Works:
 
 The program calculates the gravitational force between planets and the Sun. This force determines the acceleration of each planet. The acceleration changes velocity, and velocity updates the planet’s position over time. By repeating this process continuously, the simulation creates orbital motion.
 
-Structure of the Program
+Structure of the Program:
 
 The project uses a Planet class that stores:
 
-Position of the planet
-Velocity
-Mass
-Orbit path
+-Position of the planet
+
+-Velocity
+
+-Mass
+
+-Orbit path
+
 
 Important functions include:
 
