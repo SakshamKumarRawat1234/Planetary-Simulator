@@ -31,17 +31,42 @@ Orbit path
 
 Important functions include:
 
-attraction() – calculates gravitational force between planets
-update_position() – updates velocity and position
-draw() – displays the planet and its orbit on the screen
-Limitations
-The simulation works in 2D space only
-Numerical approximation can introduce small errors over time
-Real planetary systems are more complex than this model
-Future Improvements
-Add more planets and moons
-Improve accuracy of calculations
-Enhance visualization and graphics
-Conclusion
+attraction() – calculates gravitational force between planets,
+
+update_position() – updates velocity and position,
+
+draw() – displays the planet and its orbit on the screen,
+
+
+Limitations:
+
+1.The simulation works in 2D space only
+
+2.Numerical approximation can introduce small errors over time
+
+3.Real planetary systems are more complex than this model
+
+
+Future Improvements:
+
+1.Add more planets and moons
+
+2.Improve accuracy of calculations
+
+3.Enhance visualization and graphics
+
+
+What I learned from this project:
+
+While building this simulation, I realized that using the correct formulas is not always enough to get correct results.
+
+At first, I expected the system to behave perfectly if I applied Newton’s law correctly. But over time, I noticed small inaccuracies in the motion, especially when the simulation ran for longer periods.
+
+This made me understand that the way calculations are implemented (step-by-step updates) also affects the outcome. Even small numerical errors can accumulate and change the behavior of the system.
+
+This project helped me move beyond just using formulas to actually thinking about how physical systems are modeled in code.
+
+
+Conclusion:
 
 This project helps visualize how gravity controls planetary motion. It demonstrates how physics concepts can be implemented in programming to simulate real-world systems.
